@@ -1,0 +1,64 @@
+.caja1 { 
+    width:40%; 
+    height:100px;
+    background: red;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 18px;
+    float: left;
+
+}
+
+.caja2 { 
+    width:40%; 
+    height:100px;
+    background: green;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 18px;
+    float: left;
+}
+
+.caja3 { 
+    width:40%; 
+    height:100px;
+    background: purple;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 18px;
+    float: left;
+}
+
+.caja4 { 
+    width:40%; 
+    height:100px;
+    background: blue;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 18px;
+    float: left;
+}
+
+@media screen and (max-width: 800px) {
+    .caja1 {
+        background: yellow
+    }
+
+@media screen and (max-width: 700px) {
+    .caja2 {
+            background: pink
+        }
+
+@media screen and (max-width: 600px) {
+    .caja3 {
+            background:black
+        }
+@media screen and (max-width: 500px) {
+    .caja4 {
+             background:grey
+         }
+            
